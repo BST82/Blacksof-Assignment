@@ -8,7 +8,7 @@ This project is built using **Vite** for fast and modern frontend development.
 
 
 ```bash
-git clone https://github.com/your-username/Blacksof-Assignmen
+git clone https://github.com/BST82/Blacksof-Assignment.git
 cd your-repo-name
 npm install
 
