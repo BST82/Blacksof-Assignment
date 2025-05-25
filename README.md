@@ -1,4 +1,4 @@
-# 📦 Next Frontend Assignment
+# 📦 Next Js Frontend Assignment
 
 ## 🛠️ Project Setup
 
