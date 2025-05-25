@@ -1,10 +1,9 @@
 'use client';
-
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -20,10 +19,12 @@ export default function Header() {
           {/* Logo and Brand Name */}
           <div className="flex items-center space-x-3">
             <Link href="/">
-              <img
+              <Image
                 src="/logo.jpg"
                 alt="NextStore Logo"
                 className="h-10 sm:h-12 md:h-14 lg:h-16 w-auto object-contain"
+                width={100}
+                height={50}
               />
             </Link>
 
